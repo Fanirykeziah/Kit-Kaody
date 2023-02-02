@@ -1,0 +1,28 @@
+.navbar{
+  height: auto;
+  background-color: #343a40;
+  width: 100%;
+  position: fixed;
+  padding: 0.5rem 1.2rem 0 1.2rem;
+  }
+  
+.logo{
+    border: 1px solid white;
+    background-color: white;
+    height: auto;
+    width: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}   
+    
+.logo-img{
+    width: auto;
+    height: 40px;
+    margin: 10px 0px 0px 25px;
+}
+
+.logo-txt{
+    width: auto;
+    height: 40px;
+    margin-right: 5%;
+}
