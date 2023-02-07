@@ -19,7 +19,7 @@ export function Post() {
     return (
         <div className="container-posting">
         { feeds.map((elt , k ) => (
-          <div className="post-container">
+          <div key={k} className="post-container">
             <div className="header">
               <div className="profile">
                 <div className="profile-img"><img src={elt?.user.avatarURL} alt="" className="img"/></div>
